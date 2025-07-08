@@ -1,10 +1,10 @@
 # Palo Alto Networks Prisma AIRS MCP Integration for Claude Desktop
 
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.10+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-green.svg)](https://modelcontextprotocol.io)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Integrate Palo Alto Networks' enterprise-grade AI security into Claude Desktop using the Model Context Protocol (MCP). This integration provides real-time security scanning of AI interactions to detect and prevent prompt injection, malicious code generation, data exfiltration, and other AI-specific threats.
+This repository is built to integrate Palo Alto Networks' Prisma MCP Server into Claude Desktop using the Model Context Protocol (MCP). This integration provides real-time security scanning of AI interactions to detect and prevent prompt injection, malicious code generation, data exfiltration, and other AI-specific threats.
 
 ## 🎥 Demo
 
@@ -37,8 +37,8 @@ See it in action:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/prisma-airs-mcp.git
-   cd prisma-airs-mcp
+   git clone https://github.com/scthornton/panw-mcp-claude.git
+   cd panw-mcp-claude
    ```
 
 2. **Run setup:**
@@ -91,12 +91,12 @@ Use pan_batch_scan to check these conversations for threats:
 
 ## 📚 Available Tools
 
-| Tool | Description |
-|------|-------------|
-| `pan_inline_scan` | Scan a single prompt/response pair |
-| `pan_batch_scan` | Scan multiple conversations efficiently |
-| `pan_get_scan_results` | Retrieve results by scan ID |
-| `pan_get_scan_reports` | Get detailed threat reports |
+| Tool                   | Description                             |
+| ---------------------- | --------------------------------------- |
+| `pan_inline_scan`      | Scan a single prompt/response pair      |
+| `pan_batch_scan`       | Scan multiple conversations efficiently |
+| `pan_get_scan_results` | Retrieve results by scan ID             |
+| `pan_get_scan_reports` | Get detailed threat reports             |
 
 ## 🔍 Detected Threat Types
 
@@ -134,8 +134,8 @@ python examples/demo.py
 ```
 ┌─────────────┐     MCP      ┌──────────────┐    HTTPS    ┌─────────────┐
 │   Claude    │◄────────────►│  MCP Server  │◄───────────►│ Prisma AIRS │
-│   Desktop   │   (stdio)     │   (Python)   │   (API)     │     API     │
-└─────────────┘              └──────────────┘              └─────────────┘
+│   Desktop   │   (stdio)    │   (Python)   │   (API)     │     API     │
+└─────────────┘              └──────────────┘             └─────────────┘
 ```
 
 ## 📖 Documentation
@@ -147,7 +147,7 @@ python examples/demo.py
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+Contributions are always welcome.
 
 ## 📝 License
 
@@ -155,14 +155,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- [Palo Alto Networks](https://www.paloaltonetworks.com) for the AI Security API
+- [Palo Alto Networks](https://www.paloaltonetworks.com) for the AI Security API and MCP Server
 - [Anthropic](https://www.anthropic.com) for Claude and MCP
 - The open-source community
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/your-username/prisma-airs-mcp/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-username/prisma-airs-mcp/discussions)
+- **Issues**: [GitHub Issues](https://github.com/scthornton/panw-mcp-claude/issues)
 
 ## 🔗 Links
 

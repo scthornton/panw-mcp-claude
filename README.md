@@ -8,11 +8,9 @@ This repository is built to integrate Palo Alto Networks' Prisma MCP Server into
 
 ## 🎥 Demo
 
-![Demo Screenshot](docs/demo-screenshot.png)
-
-See it in action:
 ![Prisma AIRS Demo](images/demo.png)
 
+See it in action:
 - Detect prompt injection attempts in real-time
 - Block malicious code generation requests
 - Prevent data exfiltration through AI

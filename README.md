@@ -145,7 +145,6 @@ python examples/demo.py
 
 - [Installation Guide](docs/installation.md)
 - [API Reference](docs/api-reference.md)
-- [Security Best Practices](docs/security.md)
 - [Troubleshooting](docs/troubleshooting.md)
 
 ## 🤝 Contributing

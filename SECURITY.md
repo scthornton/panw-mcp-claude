@@ -1,5 +1,5 @@
 # Security Policy
 
-## MCP Server with Claude Integration
+## Analytics Data Generator
 
 **Email:** scott@perfecxion.ai

@@ -3,8 +3,8 @@
 ## [Unreleased]
 
 ### Added
-- Palo Alto Networks MCP Server for Claude Desktop
-- Model Context Protocol integration
-- Setup script and configuration
+- Analytics data generator in Parquet format
+- Python script for generating synthetic analytics data
+- Parquet file output support
 
-[Unreleased]: https://github.com/scthornton/panw-mcp-claude/commits/main
+[Unreleased]: https://github.com/scthornton/analytics_data_gen_parquet/commits/main
